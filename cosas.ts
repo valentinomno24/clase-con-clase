@@ -15,9 +15,12 @@ interface Cosas {
     // Método para obtener la colección completa
     getAll: function (): Cosas[] {
       // Tu código
+      return this.collection
     },
      // Método para obtener un objeto por id
      getById: function (id: number): Cosas | undefined {
         // Tu código
+        return this.collection.find(cosas => cosas.id === id );
      },
     };  
+    export default cosas;
