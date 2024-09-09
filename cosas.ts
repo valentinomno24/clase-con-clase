@@ -23,4 +23,4 @@ interface Cosas {
         return this.collection.find(cosas => cosas.id === id );
      },
     };  
-    export default vino otra persona y cambio esto;
+    export default (vino otra persona y cambio esto);
